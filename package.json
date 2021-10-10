@@ -1,0 +1,24 @@
+{
+  "name": "wild-advisor",
+  "version": "1.0.0",
+  "description": "Liste des fichiers : * Page d'accueil : \"index.html\" * Pages établissements : \"place.html\", \"pouce.html\", \"soif.html\",  * Simulateur : \"surprise.html\" * A propos : \"propos.html\" * Favoris : \"favoris.html\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eti-Fromentin/Wild-advisor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eti-Fromentin/Wild-advisor/issues"
+  },
+  "homepage": "https://github.com/Eti-Fromentin/Wild-advisor#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
